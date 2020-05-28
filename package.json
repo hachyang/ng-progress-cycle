@@ -7,6 +7,7 @@
     "start": "ng serve",
     "build": "ng build",
     "electron": "electron .",
+    "build:deploy":"ng build --output-path docs --base-href /ng-progress-cycle/",
     "electron-build": "ng build --prod && electron .",
     "test": "ng test",
     "lint": "ng lint",
